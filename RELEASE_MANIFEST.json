@@ -1,0 +1,13 @@
+{
+  "version": "2.3.1",
+  "fiscalYear": 2570,
+  "site": "https://rmpbk.netlify.app",
+  "spreadsheet_id": "1PEpT7XygC2S0taWQ6D12qu6DBV56t9bljlnuzXB1DQo",
+  "oauth_client_id": "449794355375-rld9cv5rpvv02hscg1mtd0ftifb74eke.apps.googleusercontent.com",
+  "admin_email": "keawklao3610@gmail.com",
+  "contains_patient_data": false,
+  "contains_service_account_secret": false,
+  "requires_cloud_setup": true,
+  "npm_test": "18/18 local tests passed",
+  "build": "npm run build passed"
+}

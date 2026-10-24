@@ -1,0 +1,19 @@
+OR SAFETY INTELLIGENCE V2.3.1 - PRODUCTION ONLY
+
+Google Sheets แยกใหม่: https://docs.google.com/spreadsheets/d/1PEpT7XygC2S0taWQ6D12qu6DBV56t9bljlnuzXB1DQo/edit
+Excel ใหม่อยู่ใน database/OR_Safety_Intelligence_V2.3.1_CLEAN_DATABASE.xlsx
+
+ไม่มีข้อมูลคนไข้ และไม่มีทางเข้า Demo
+
+Google OAuth client: 449794355375-rld9cv5rpvv02hscg1mtd0ftifb74eke.apps.googleusercontent.com
+Admin: keawklao3610@gmail.com (แก้ตัวสะกดจากข้อความที่พิมพ์ gmai;.com)
+
+สิ่งที่ยังต้องใช้เจ้าของระบบดำเนินการ:
+1. แชร์ชีตให้ service account client_email เป็น Editor
+2. ตั้งค่า Netlify functions GOOGLE_SERVICE_ACCOUNT_JSON เป็น Secret
+3. ตั้งค่าที่เหลือใน Netlify Environment variables
+4. ตั้ง Authorized JavaScript origins ให้ https://rmpbk.netlify.app
+5. Deploy ZIP โดยแตกไฟล์ก่อน อัปเดต GitHub repo1 หรือ Netlify CLI
+6. ทดสอบ login/CRUD/CPS/PDF/A4 ด้วยข้อมูลสมมติที่ไม่ใช่คนไข้
+
+หน้าเว็บจะไม่แสดงข้อมูลปลอมเมื่อยังเชื่อมไม่สำเร็จ

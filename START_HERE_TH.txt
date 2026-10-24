@@ -1,0 +1,19 @@
+OR SAFETY INTELLIGENCE V2.3.1 – ไม่มีข้อมูลคนไข้ / ไม่มี DEMO
+
+ฐาน Google Sheets ใหม่ (ว่าง):
+https://docs.google.com/spreadsheets/d/1PEpT7XygC2S0taWQ6D12qu6DBV56t9bljlnuzXB1DQo/edit
+
+Google OAuth Client ID: 449794355375-rld9cv5rpvv02hscg1mtd0ftifb74eke.apps.googleusercontent.com
+Admin Email ที่ใช้: keawklao3610@gmail.com
+(แก้จากข้อความพิมพ์ผิด Keawklao3610@gmai;.com)
+
+Netlify เดิม: https://rmpbk.netlify.app/ (ยังต้อง Deploy รุ่นนี้)
+
+1. เปิด docs/Netlify_Deployment.md
+2. เปลี่ยน Source Code ใน GitHub repo1 ด้วยไฟล์ใน ZIP โครงสร้าง ROOT ถูกต้อง
+3. ตั้ง Netlify Environment variables; ค่า GOOGLE_SERVICE_ACCOUNT_JSON เป็นความลับจากบัญชี Google Cloud ของคุณ
+4. แชร์ Google Sheets ใหม่ให้ Service Account
+5. Trigger deploy ใหม่; ดู Build Logs ถ้าล้มเหลว
+6. ทดสอบ API config, login, Incident create/update, CPS, PDF, A4 report
+
+**ถ้าไม่ได้ตั้ง GOOGLE_SERVICE_ACCOUNT_JSON ระบบจะไม่เปิดข้อมูล ไม่เปิดโหมด DEMO**
